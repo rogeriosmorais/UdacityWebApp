@@ -30,15 +30,15 @@ set TF_VAR_tenant_id=xxxxxxxx
 4. Run `packer build server.json`
 <img src="/Screenshots/Packer Execution.png">
 
-This is how it looks when properly executed:
+A virtual machine image will be created:
 
 <img src="/Screenshots/Packer Result (created VM Image).png">
-
-
 
 5. Run `terraform init`
 
 6. Run `terraform import azurerm_resource_group.resourcegroup_name /subscriptions/<your_subscription_id>/resourceGroups/<your_resource_group_name>`
+<img src="/Screenshots/Terraform import.png">
+
 
 7. Run `terraform plan -out solution.plan`
 
