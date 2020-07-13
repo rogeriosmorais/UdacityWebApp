@@ -28,6 +28,13 @@ set TF_VAR_tenant_id=xxxxxxxx
 ```
 
 4. Run `packer build server.json`
+<img src="/Screenshots/Packer Execution.png">
+
+This is how it looks when properly executed:
+
+<img src="/Screenshots/Packer Result (created VM Image).png">
+
+
 
 5. Run `terraform init`
 
