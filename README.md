@@ -46,7 +46,7 @@ A virtual machine image will be created:
 
 Terraform Log<br />
 <img src="/Screenshots/Terraform apply execution log.png">
-Terraform Result<br />
+Resources created by Terraform<br />
 <img src="/Screenshots/Terraform apply execution result.png">
 
 9. You can optionally create a policy to prevent resources without tags to be deployed using the Azure Portal. This is how it looks like when properly configured:
