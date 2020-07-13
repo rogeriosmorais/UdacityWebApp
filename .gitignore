@@ -1,2 +1,10 @@
 .DS_Store
 .DS_Store?
+exports.bat
+packer.exe
+terraform.exe
+.terraform/plugins/windows_amd64/lock.json
+.terraform/plugins/windows_amd64/terraform-provider-azurerm_v2.18.0_x5.exe
+terraform.tfstate
+terraform.tfstate.backup
+/.terraform
