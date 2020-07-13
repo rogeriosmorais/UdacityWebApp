@@ -31,7 +31,7 @@ set TF_VAR_tenant_id=xxxxxxxx
 
 5. Run `terraform init`
 
-6. Run `terraform import azurerm_resource_group.resourcegroup_name /subscriptions/<your_subscription_id>/resourceGroups/<your_resource_group_name>
+6. Run `terraform import azurerm_resource_group.resourcegroup_name /subscriptions/<your_subscription_id>/resourceGroups/<your_resource_group_name>`
 
 7. Run `terraform plan -out solution.plan`
 
@@ -39,5 +39,7 @@ set TF_VAR_tenant_id=xxxxxxxx
 
 
 ### Output
-![Terraform Apply](/Screenshots/Terraform apply execution result.png)
+Terraform Apply-<br />
+<img src="/Screenshots/Terraform apply execution result.png">
+
 
